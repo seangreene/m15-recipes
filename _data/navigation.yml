@@ -1,0 +1,9 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Student Voice
+  link: //www.studentvoiceonline.com
+  target: _blank
+- name: Blog
+  link: /blog.html
