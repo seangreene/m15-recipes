@@ -2,12 +2,13 @@
 layout: recipe
 title: Gallo pinto
 author: Sean
-style: "@import url(https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Roboto);body{margin:0;background-color:#fcf5c7}.recipe-container{max-width:800px;width:calc(100% - 20px);margin-right:auto;margin-left:auto;padding:15px;background-color:#fff}.lead-image{max-width:800px;width:100%;margin:0 auto}.footnote,.ingredients,.steps{margin-top:30px}figure img{width:100%}h1{font-family:'Playfair Display',sans-serif;font-size:36px;text-align:center;max-width:630px;margin:15px auto}h3{font-family:'Playfair Display',sans-serif;font-size:24px;max-width:630px;margin:15px auto}ol,p,ul{font-family:Montserrat,serif;font-size:18px;line-height:24px;max-width:630px;margin:15px auto}li{margin-bottom:15px}p.footnote{font-size:15px}"
+style: "@import url(https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Roboto);body{margin:0;background-color:#fcf5c7}.recipe-container{max-width:800px;width:calc(100% - 20px);margin-right:auto;margin-left:auto;padding:15px;background-color:#fff}.lead-image{max-width:800px;width:100%;margin:0 auto}.footnote,.ingredients,.steps{margin-top:30px}figure img{width:100%}h1{font-family:'Playfair Display',sans-serif;font-size:36px;text-align:center;max-width:630px;margin:15px auto}h3{font-family:'Playfair Display',sans-serif;font-size:24px;max-width:630px;margin:15px auto}ol,p,ul{font-family:Montserrat,serif;font-size:18px;line-height:24px;max-width:630px;margin:15px auto}li{margin-bottom:15px}p.footnote{font-size:15px}figcaption{font-family:Montserrat,serif;font-size:13px;color:#666;text-align:right;margin-top:5px;}"
 thumbnail: 'https://farm6.staticflickr.com/5811/21433242912_4a9e4ba6ac_z.jpg'
 ---
 <div class="recipe-container">
 	<figure class="lead-image">
 		<img src="https://farm6.staticflickr.com/5811/21433242912_4a9e4ba6ac_z.jpg" />
+		<figcaption>Photo: <a href="https://stripedspatula.com/gallo-pinto/" target="_blank">Striped Spatula</a></figcaption>
 	</figure>
 	<h1>Gallo pinto</h1>
 	<p>After grad school, I took a two-week vacation to Costa Rica. I explored cloud forests, beaches and a bunch of awesome foods. I ate my way through plates of <em>casados</em>, bowls of ceviche and empanadas. But the dish I most wanted to take home with me was the humble <em>gallo pinto</em>, a Tico take on rice and beans.</p>
