@@ -1,5 +1,14 @@
-.current {
-  color: green;
+.jumbotron h1, .card-body h2 {
+	font-family: 'Nunito', sans-serif;
+}
+.jumbotron h1, .card-body h2 a {
+	color: #34749e
+}
+marquee, .card-text p {
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar-collapse {
+    flex-grow: 0;
 }
 .jumbotron {
   padding-top: 3rem;
@@ -30,6 +39,15 @@ figure img {
 	width: 100%;
 }
 
+h2.card-text.headline {
+	font-size: 21px;
+	margin-bottom: 5px;
+}
+
+p.card-text.byline {
+	font-size: 15px;
+	margin-bottom: 1rem;
+}
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -37,4 +55,11 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+@media (min-width: 576px){
+	.modal-dialog {
+	    max-width: 1000px;
+	    margin: 1.75rem auto;
+	}
 }

@@ -5,8 +5,8 @@ layout: default
 
   <section class="jumbotron text-center">
     <div class="container">
-      <h1 class="jumbotron-heading">{{ page.title }}</h1>
-      <p class="lead text-muted">{{ page.description }}</p>
+      <h1 class="jumbotron-heading" data-toggle="modal" data-target="#exampleModal">{{ page.title }}</h1>
+      <marquee class="lead text-muted">{{ page.description }}</marquee>
 <!--       <p>
         <a href="#" class="btn btn-primary my-2">Main call to action</a>
         <a href="#" class="btn btn-secondary my-2">Secondary action</a>
@@ -27,7 +27,8 @@ layout: default
                   </figure>
                 </a>
                 <div class="card-body">
-                  <p class="card-text"><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></p>
+                  <h2 class="card-text headline"><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></h2>
+                  <p class="card-text byline">{{post.author}}</p>
                   <!-- <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -39,11 +40,30 @@ layout: default
               </div>
             </div>
           {% endfor %}
-
-
-
       </div>
     </div>
   </div>
 
 </main>
+<!-- Modal -->
+<div class="modal col-lg-12 fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Star Wars > everything</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/VoAtnU2a1u0' frameborder='0' allowfullscreen></iframe></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script>
+  $('#exampleModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  });
+</script>

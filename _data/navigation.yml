@@ -1,6 +1,6 @@
 - name: Home
   link: /
 - name: HTML guide
-  link: https://www.w3schools.com/html/
+  link: //www.w3schools.com/html/
 - name: CSS guide
-  link: https://www.w3schools.com/css/
+  link: //www.w3schools.com/css/
