@@ -13,6 +13,14 @@
 	    	<a class="nav-link" href="{{ item.link | prepend:site.baseurl }}" target="{{item.target}}">{{ item.name }}</a>
 	    </li>
 	  {% endfor %}
+      <li class="nav-item dropdown show">
+        <a class="nav-link dropdown-toggle" href="#" id="allrecipes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All recipes</a>
+        <div class="dropdown-menu " aria-labelledby="allrecipes">
+          {% for post in site.posts %}
+            <a class="dropdown-item" href="/m15-recipes/{{ post.url }}">{{ post.title }}</a>
+          {% endfor %}
+        </div>
+      </li>
     </ul>
     <!-- <form class="form-inline mt-2 mt-md-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
