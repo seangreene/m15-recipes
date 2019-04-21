@@ -9,18 +9,18 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown show">
-        <a class="nav-link dropdown-toggle" href="#" id="tutorials" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
-        <div class="dropdown-menu " aria-labelledby="allrecipes">
-          {% for item in site.data.navigation %}
-            <a class="dropdown-item" href="/m15-recipes/{{ post.url }}">{{ item.name }}</a>
-          {% endfor %}
-        </div>
-      </li>
-      <li class="nav-item dropdown show">
         <a class="nav-link dropdown-toggle" href="#" id="allrecipes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All recipes</a>
         <div class="dropdown-menu " aria-labelledby="allrecipes">
           {% for post in site.posts %}
             <a class="dropdown-item" href="/m15-recipes/{{ post.url }}">{{ post.title }}</a>
+          {% endfor %}
+        </div>
+      </li>
+      <li class="nav-item dropdown show">
+        <a class="nav-link dropdown-toggle" href="#" id="tutorials" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorials</a>
+        <div class="dropdown-menu " aria-labelledby="allrecipes">
+          {% for item in site.data.navigation %}
+            <a class="dropdown-item" href="/m15-recipes/{{ post.url }}">{{ item.name }}</a>
           {% endfor %}
         </div>
       </li>
