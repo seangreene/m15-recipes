@@ -1,7 +1,9 @@
 ---
 layout: recipe
+title: Sean's recipe
 author: Sean
 style: "@import url(https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Roboto);body{margin:0;background-color:#fcf5c7}.recipe-container{max-width:800px;width:calc(100% - 20px);margin-right:auto;margin-left:auto;padding:15px;background-color:#fff}.lead-image{max-width:800px;width:100%;margin:0 auto}.footnote,.ingredients,.steps{margin-top:30px}figure img{width:100%}h1{font-family:'Playfair Display',sans-serif;font-size:36px;text-align:center;max-width:630px;margin:15px auto}h3{font-family:'Playfair Display',sans-serif;font-size:24px;max-width:630px;margin:15px auto}ol,p,ul{font-family:Montserrat,serif;font-size:18px;line-height:24px;max-width:630px;margin:15px auto}li{margin-bottom:15px}p.footnote{font-size:15px}"
+thumbnail: 'https://farm6.staticflickr.com/5811/21433242912_4a9e4ba6ac_z.jpg'
 ---
 <div class="recipe-container">
 	
