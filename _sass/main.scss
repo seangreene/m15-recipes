@@ -1,10 +1,16 @@
 .jumbotron h1, .card-body h2 {
 	font-family: 'Nunito', sans-serif;
 }
+.navbar h2 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 1.25rem;
+	margin: 0;
+}
 .jumbotron h1, .card-body h2 a {
 	color: #34749e
 }
-marquee, .card-text p {
+marquee, .card-text p, li.nav-item {
 	font-family: 'Montserrat', sans-serif;
 }
 .navbar-collapse {
