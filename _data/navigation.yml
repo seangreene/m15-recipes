@@ -1,4 +1,6 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
+- name: HTML guide
+  link: https://www.w3schools.com/html/
+- name: CSS guide
+  link: https://www.w3schools.com/css/
