@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
   <a href="{{ page.url }}" class="navbar-brand d-flex align-items-center">
-    <img src="assets/images/noun_cooking_2210072-icon.png" style="width:20px; margin-right: 10px;" />
+    <img src="/m15-recipes/assets/images/noun_cooking_2210072-icon.png" style="width:20px; margin-right: 10px;" />
     <strong>Cooking with HTML</strong>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@
     <ul class="navbar-nav mr-auto">
       {% for item in site.data.navigation %}
       	<li class="nav-item {% if page.url == item.link %}active{% endif %}">
-	    	<a class="nav-link" href="{{ item.link }}" target="{{item.target}}">{{ item.name }}</a>
+	    	<a class="nav-link" href="{{ item.link | prepend:site.baseurl }}" target="{{item.target}}">{{ item.name }}</a>
 	    </li>
 	  {% endfor %}
     </ul>
