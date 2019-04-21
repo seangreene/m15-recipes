@@ -18,28 +18,28 @@ layout: default
     <div class="container">
 
       <div class="row">
-          {% for post in site.posts %}
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <a href="{{ post.url | prepend:site.baseurl }}">
-                  <figure class="thumbnail">
-                    <img src="{{ post.thumbnail }}" class="lazy" />
-                  </figure>
-                </a>
-                <div class="card-body">
-                  <h2 class="card-text headline"><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></h2>
-                  <p class="card-text byline">{{post.author}}</p>
-                  <!-- <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div> -->
-                </div>
+        {% for post in site.posts %}
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <a href="{{ post.url | prepend:site.baseurl }}">
+                <figure class="thumbnail">
+                  <img src="{{ post.thumbnail }}" class="lazy" />
+                </figure>
+              </a>
+              <div class="card-body">
+                <h2 class="card-text headline"><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></h2>
+                <p class="card-text byline">{{post.author}}</p>
+                <!-- <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div> -->
               </div>
             </div>
-          {% endfor %}
+          </div>
+        {% endfor %}
       </div>
     </div>
   </div>
