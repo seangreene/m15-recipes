@@ -3,7 +3,7 @@ layout: recipe
 title: Alex's Special Netflix & Chill Recipe
 author: Alex
 style:  "body {background-color:#000}.netflix h1{background-color:red}.netflix h2{background-color:red}.netflix h3{background-color:red}p{color:#fff;font-size:20px;font-family:Helvetica,verdana}.netflix ul{color:#fff;font-size:15px;font-family:Helvetica,verdana} div.netflix{max-width:800px;margin-left:auto;margin-right:auto}"
-thumbnail: '/m15-recipes/assets/images/Netflixnc.jpg'
+thumbnail: '/m15-recipes/assets/images/netflixnc.jpg'
 ---
 <div class="netflix">
 	<h1> My Special Netflix & Chill Recipe </h1>
@@ -16,7 +16,7 @@ thumbnail: '/m15-recipes/assets/images/Netflixnc.jpg'
 	<p>I am here to help with that too.</p>
 	<p>Here is my recipe for a good movie night. </p>
 	<figure> 
-		<img src="/m15-recipes/assets/images/Netflixnc.jpg" width="100%">
+		<img src="/m15-recipes/assets/images/netflixnc.jpg" width="100%">
 	</figure>
 	<br>
 	<br>
