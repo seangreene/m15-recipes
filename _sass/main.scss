@@ -1,5 +1,5 @@
 .jumbotron h1, .card-body h2 {
-	font-family: 'Nunito', sans-serif;
+  font-family: 'Cabin Condensed', sans-serif;
 }
 .navbar h2 {
 	font-family: 'Nunito', sans-serif;
@@ -17,10 +17,14 @@ marquee, .card-text p, li.nav-item {
     flex-grow: 0;
 }
 .jumbotron {
+  height: calc(100vh - 30px);
+  display: flex;  
+  justify-content: center;
+  align-items: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
   margin-bottom: 0;
-  background-color: #fff;
+  background-color: papayawhip;
 }
 @media (min-width: 768px) {
   .jumbotron {
